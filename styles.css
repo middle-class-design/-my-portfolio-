@@ -12,8 +12,18 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 60px;
-    background-color: #8046b5;
+    background-color: transparent;
 }
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background-color: white;
+    color: black;
+  }
 .nav ul li {
     list-style: none;
     margin: 0 23px;
@@ -74,13 +84,17 @@ section.firstsection > div {
     font-weight: 800;
     font-family: cursive;
 }
+hr{
+    margin: 0;
+    padding: 0;
+}
 .hi {
     font-size: 4rem;
 }
 .secondsection {
-    height: 80vh;
-    max-width: 80vw;
-    margin: 35px auto;
+    height: 100vh;
+    max-width: 100vw;
+    margin: 0 auto;
 }
 .secondsection h1 {
     font-size: 1.8rem;
@@ -92,30 +106,34 @@ section.firstsection > div {
     margin: 110px 0;
     display: flex;
 }
-.secondsection .verticle{
-    height: 93px;
-    width: 1px;
-    background-color: white;
-    margin: 0 100px;
+.progress-bar-red{
+    background-color: #ec3e12;
 }
-.img-top {
-    WIDTH: 50PX;
-    POSITION: RELATIVE;
-    TOP: -50PX;
-    LEFT: -21PX;
+.about-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
 }
-.verticle-title {
-    POSITION: RELATIVE;
-    TOP: 38PX;
-    LEFT: -17PX;
+video {
+    /* display: inline-block; */
+    vertical-align: baseline;
+    width: 55vw;
+    height: 100vh;
+    object-fit: cover;
 }
-.verticle-desc {
-    TOP: 41PX;
-    POSITION: relative;
-    LEFT: -17PX;
-    FONT-SIZE: 9PX;
-    WIDTH: 11VW;
+.about-img {
+    /* padding: 0 58px; */
+    width: 100%;
+    height: 100%;
 }
+.skills {
+    width: 100%;
+    height: 100%;
+    padding: 11px 28px;
+}
+
 section.thirdsection {
     height: 80vh;
 }
