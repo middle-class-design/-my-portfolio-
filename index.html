@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navneet - Developer Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -41,7 +38,7 @@
                 My Name Is <span class="orange"> Navneet</span>
                 <div><span id="element">I am a Web</span> <span class="purple"></span> </div>
 <div class="buttons">
-    <button class="btn">Download Resume</button>
+    <button class="btn"><a href="./assets/NAVNEET CV NEW.docx" download="Navneetcv.docx">Download Resume</a></button>
     <button class="btn">Visit Github</button>
 </div>
             </div>
@@ -49,77 +46,175 @@
                 <img src="../portofolio/assets/images/img1.png" alt="" srcset="">
             </div>
         </section>
-        <hr>
         <section class="secondsection">
             <div class="about-skill">
-                <div class="about-img">
-                    <video src="./assets/videos/skills.mp4" controls loop autoplay muted ><source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg"></video>
-                </div>
             <div class="skills">
+              <h1>My skills</h1>
                 <div class="skill-name">
                     <p>HTML</p>
                 </div>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped active progress-bar-red" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                85%
-              </div>
+              <div class="progress-bar html"> 85% </div>
             </div>
             <div class="skill-name">
                 <p>CSS</p>
             </div>  
             <div class="progress">
-                <div class="progress-bar progress-bar-striped active progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                  40%
-                </div>
+              <div class="progress-bar css">65%</div>
               </div>
               <div class="skill-name">
                 <p>JAVASCRIPT</p>
             </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped active progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                  40%
-                </div>
+                <div class="progress-bar jvscript">45%</div>
               </div>
               <div class="skill-name">
                 <p>BOOTSTRAP</p>
             </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped active progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                  40%
-                </div>
+                <div class="progress-bar bootstrap">35%</div>
               </div>
               <div class="skill-name">
                 <p>J QUERY</p>
             </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped active progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                  40%
-                </div>
+                <div class="progress-bar jquery">15%</div>
               </div>
               <div class="skill-name">
                 <p>REACT.JS</p>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-striped active progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                      40%
-                    </div>
+                  <div class="progress-bar reactjs">10%</div>
                   </div>
-    
             </div>
             </div>
+            <div class="about-img">
+              <img src="./assets/images/skills.jpg" alt="" srcset="">
+          </div>
         </div>
         </section>
-        <hr>
         <section class="thirdsection">
-            WEBSITES EXAMPLES..
+            <div class="web-demo">
+              <h1>MY PORTFOLIO</h1>
+              <h2>My Excellent Portfolio</h2>
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Clone</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Java Script </button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Other</button>
+              </div>
+              <div id="London" class="tabcontent">
+                <div class="card-column">
+                <div class="card">
+                  <img src="./assets/images/amzon.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/images/amzon.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/images/amzon.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div id="Paris" class="tabcontent">
+                <div class="card-column">
+                <div class="card">
+                  <img src="./assets/images/linkedIn.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/images/linkedIn.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/images/linkedIn.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div id="Tokyo" class="tabcontent">
+                <div class="card-column">
+                <div class="card">
+                  <img src="./assets/images/Netflix-Logo.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/images/Netflix-Logo.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/images/Netflix-Logo.png" alt="Avatar">
+                  <div class="container">
+                    <h4><b>Jane Doe</b></h4> 
+                    <p>Interior Designer</p> 
+                  </div>
+                </div>
+              </div>
+              </div>
+                </div>         
         </section>
-        <hr>
-        <section class="fourthsection">
-            language skills..
-        </section>
-        <hr>
         <section class="contactsection">
-            contact me..
+          <div class="container">
+          <div class="contact-me">
+            <div class="contact-img">
+              <img src="./assets/images/contactme.jpg" alt="" srcset="">
+          </div>
+            <div class="contact-form">
+              <form action="action_page.php">
+                <div class="control-form">
+                <input type="text" class="form-control" id="name" placeholder="Your Name"
+                 required="required" data-validation-required-message="Please enter your name" aria-invalid="false">
+                </div>
+                 <div class="control-form">
+                 <input type="email" class="form-control" id="email" 
+                 placeholder="Your Email" required="required" data-validation-required-message="Please enter your email">
+                </div>
+                <div class="control-form">
+                  <input type="text" class="form-control" id="subject" placeholder="Subject"
+                   required="required" data-validation-required-message="Please enter a subject" aria-invalid="false">
+                 </div>
+                 <div class="control-form">
+                 <textarea class="form-control" id="message" placeholder="Message" 
+                 required="required" data-validation-required-message="Please enter your message" aria-invalid="false"></textarea>
+                </div>
+                <div>
+                <button class="massagebtn" type="submit" id="sendMessageButton">Send Message</button>
+              </div>
+                </form>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="thanks">
+          <div>
+          <h1>Thanks For Visit </h1>
+          <p>“A website without visitors is like a ship lost in the horizon.”</p>
+        </div>
         </section>
         <footer>
             <div class="footer">
@@ -129,25 +224,17 @@
                 <div class="footer-b">
                     <ul>
                         <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
+                        <li>About</li>
+                        <li>Project</li>
+                        <li>Contact</li>
                     </ul>
                 </div>
                 <div class="footer-c">
                     <ul>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                    </ul>
-                </div>
-                <div class="footer-d">
-                    <ul>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
+                        <li>linkdin</li>
+                        <li>Github</li>
+                        <li>Facebook</li>
+                        <li>Gmail</li>
                     </ul>
                 </div>
                 </div>
