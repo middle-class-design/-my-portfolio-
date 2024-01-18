@@ -10,8 +10,9 @@ body{
     background-color: transparent;
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
-}  
+    justify-content: space-around;
+    padding: 14px;
+}
 .sticky {
     position: fixed;
     width: 100%;
@@ -84,8 +85,10 @@ section.firstsection > div {
 }
 
 .rightsec img {
-    width: 80%;
+    width: 100%;
     margin: 50px 0;
+    height: auto;
+
 }
 .purple {
     color: #84dbff;
@@ -125,7 +128,6 @@ hr{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 100%;
     color: #808080a1;
 }
 
@@ -145,9 +147,6 @@ section.thirdsection {
     padding-bottom: 73px;
 }
 section.fourthsection {
-    height: 80vh;
-}
-section.contactsection {
     height: 80vh;
 }
 footer {
@@ -246,14 +245,12 @@ footer {
     display: flex;
     padding: 9px 0px;
     margin: auto;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 .card {
    box-shadow:  0 8px 24px 0 rgb(94 56 188 / 88%);
     transition: 0.3s;
-    /* width: 20%; */
+     width: 100%; 
     border-radius: 5px;
     margin: 19px;
 }
@@ -264,11 +261,12 @@ footer {
   
   .card img {
     border-radius: 5px 5px 0 0;
-    height: 250px;
-    width: 250px;
+    height: auto;
+    width: 100%;
 }
   .card .container {
     padding: 2px 16px;
+    background: #2ddf165c;
   }
   .contact-img {
     width: 40%;
@@ -322,20 +320,15 @@ footer {
     box-shadow: none;
 }
 section.thanks {
-    height: 55vh;
     background-color: white;
     text-align: center;
 }
 section.thanks > div {
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    position: relative;
-    top: 114px;
+    padding: 100px;
 }
 .thanks h1 {
     color: rgb(40 8 79 / 64%);
-    font-size: 4rem;
+    font-size: 4vmax;
 }
 .web-demo h2 {
     text-align: center;
@@ -396,7 +389,7 @@ footer .footer-down {
 }
 .about-img img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .buttons a {
     text-decoration: none;
@@ -512,5 +505,12 @@ section.firstsection > div {
       text-align: left;
     }
   }
-  
+  .footer a {
+    text-decoration: none;
+    color: white;
+}
+.container a {
+    text-decoration: none;
+    font-size: -webkit-xxx-large;
+}
 
